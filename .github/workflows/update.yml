@@ -75,7 +75,6 @@ jobs:
           repository-name: Navezjt/api
           branch: gh-pages
           folder: .api
-          token: ${{ steps.create-app-token.outputs.token }}
           git-config-name: iptv-bot[bot]
           git-config-email: 84861620+iptv-bot[bot]@users.Seonavez.github.com
           commit-message: '[Bot] Deploy to Navezjt/api'
