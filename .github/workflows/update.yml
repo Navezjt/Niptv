@@ -21,7 +21,7 @@ jobs:
       - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"
-          git config user.email "84861620+iptv-bot[bot]@users.Seonavez.github.com"
+          git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
       - uses: actions/setup-node@v3
         if: ${{ !env.ACT }}
         with:
@@ -65,7 +65,7 @@ jobs:
           folder: .gh-pages
           token: ${{ steps.create-app-token.outputs.token }}
           git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.Seonavez.github.com
+          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
           commit-message: '[Bot] Deploy to GitHub Pages'
           clean: true
       - name: move .api/streams.json to Navezjt/api
@@ -76,6 +76,6 @@ jobs:
           branch: gh-pages
           folder: .api
           git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.Seonavez.github.com
+          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
           commit-message: '[Bot] Deploy to Navezjt/api'
           clean: false
