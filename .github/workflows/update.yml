@@ -8,20 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: tibdex/github-app-token@v1.8.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+      # Runs a single command using the runners shell
+      #- name: Run a one-line script
+      #  run: echo testing!
+
+      # Runs a set of commands using the runners shell 
+      - name: config
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
       - uses: actions/checkout@v3
-        if: ${{ !env.ACT }}
-        with:
-          token: ${{ steps.create-app-token.outputs.token }}
       - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"
-          git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
+          git config user.email "84861620+iptv-bot[bot]@users.Seonavez.github.com"
       - uses: actions/setup-node@v3
         if: ${{ !env.ACT }}
         with:
@@ -47,36 +47,36 @@ jobs:
         run: |
           git add streams
           git status
-          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/iptv/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.playlist-update.outputs.OUTPUT }}" --no-verify
+          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.playlist-update.outputs.OUTPUT }}" --no-verify
       - name: commit changes to readme.md
         run: |
           git add README.md
           git status
-          git commit --allow-empty -m "[Bot] Update README.md" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/iptv/actions/runs/${{ github.run_id }}) workflow." --no-verify
+          git commit --allow-empty -m "[Bot] Update README.md" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run_id }}) workflow." --no-verify
       - name: push all changes to the repository
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         run: git push
       - name: deploy public playlists to github pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
-          repository-name: iptv-org/iptv
+          repository-name: Navezjt/iptv
           branch: gh-pages
           folder: .gh-pages
           token: ${{ steps.create-app-token.outputs.token }}
           git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
+          git-config-email: 84861620+iptv-bot[bot]@users.Seonavez.github.com
           commit-message: '[Bot] Deploy to GitHub Pages'
           clean: true
-      - name: move .api/streams.json to iptv-org/api
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+      - name: move .api/streams.json to Navezjt/api
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
-          repository-name: iptv-org/api
+          repository-name: Navezjt/api
           branch: gh-pages
           folder: .api
           token: ${{ steps.create-app-token.outputs.token }}
           git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
-          commit-message: '[Bot] Deploy to iptv-org/api'
+          git-config-email: 84861620+iptv-bot[bot]@users.Seonavez.github.com
+          commit-message: '[Bot] Deploy to Navezjt/api'
           clean: false
