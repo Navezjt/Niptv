@@ -153,7 +153,7 @@ https://vips-livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/playlist.m3u8
 https://vips-livecdn.fptplay.net/hda1/vtv4_vhls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VTV5.vn",VTV5 (1080p) [Geo-blocked]
 https://vips-livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VTV6.vn",VTV6 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="",VTV6 (1080p) [Geo-blocked]
 https://vips-livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VTV7.vn",VTV7 (1080p) [Geo-blocked] [Not 24/7]
 https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/playlist.m3u8
