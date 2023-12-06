@@ -54,7 +54,7 @@ https://tbs01-edge11.itdc.ge/stereoplus/index.m3u8
 https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",VIP Family (576p)
 https://tbs01-edge11.itdc.ge/tv5/index.m3u8
-#EXTINF:-1 tvg-id="MuzhskoeKino.ru" tvg-logo="" group-title="Undefined",Мужское кино (576p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Мужское кино (576p)
 https://tbs01-edge11.itdc.ge/interesnoetv/index.m3u8
 #EXTINF:-1 tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined",НТВ Мир
 http://ucdn.beetv.kz/btv/live/hls/000000079.m3u8

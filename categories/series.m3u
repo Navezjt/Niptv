@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="13T.cl" tvg-logo="https://i.imgur.com/Agtfbfi.png" group-title="Series",13 Teleseries (720p)
 https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 #EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" group-title="Series",A1
-http://31.148.48.15:80/A1/index.m3u8
+http://31.148.48.15/A1/index.m3u8
 #EXTINF:-1 tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://i.imgur.com/QWzEK8i.png" group-title="Series",Adult Swim Black Jesus (1080p) [Geo-blocked]
 https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream_de.m3u8
 #EXTINF:-1 tvg-id="AdultSwimTheEricAndreShow.us" tvg-logo="https://i.imgur.com/47za7Yq.png" group-title="Series",Adult Swim The Eric Andre Show (1080p) [Geo-blocked]

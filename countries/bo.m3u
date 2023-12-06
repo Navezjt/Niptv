@@ -17,7 +17,7 @@ https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/ATB/__op/hls-default/__f/index.
 http://hd.istbolivia.com:1935/aynitv/aynitv/playlist.m3u8
 #EXTINF:-1 tvg-id="BoliviaTV72.bo" tvg-logo="https://i.imgur.com/kZjLGAy.png" group-title="General",Bolivia TV 7.2 (480p)
 https://video1.getstreamhosting.com:1936/8224/8224/playlist.m3u8
-#EXTINF:-1 tvg-id="BoliviaTV72Deportes.bo" tvg-logo="" group-title="Undefined",Bolivia TV 7.2 Deportes (720p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Bolivia TV 7.2 Deportes (720p)
 https://5ca3e84a76d30.streamlock.net/boliviatv2/videoboliviatv2/playlist.m3u8
 #EXTINF:-1 tvg-id="BoliviaTV.bo" tvg-logo="https://i.imgur.com/1WDGT0p.png" group-title="General",Bolivia TV (720p) [Not 24/7]
 http://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8

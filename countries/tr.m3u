@@ -144,7 +144,7 @@ https://vdo.digitalbox.xyz:3588/live/finansturktvlive.m3u8
 https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.tr" tvg-logo="https://i.imgur.com/ZbUSlOC.png" group-title="Lifestyle",Fortuna TV (720p)
 https://fortunacdn.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxTurkey.tr" tvg-logo="" group-title="Undefined",Fox Türkiye (720p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fox Türkiye (720p)
 https://foxtv.blutv.com/blutv_foxtv_live/live.m3u8
 #EXTINF:-1 tvg-id="GoncaTV.tr" tvg-logo="https://i.imgur.com/TwqIJwo.png" group-title="Undefined",Gonca TV (720p)
 https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8
@@ -394,7 +394,7 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png" group-title="Undefined",TRT Turk
 https://trtturk.blutv.com/blutv_trtturk2/live.m3u8
-#EXTINF:-1 tvg-id="TurkHaber.tr" tvg-logo="" group-title="Undefined",TürkHaber (720p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TürkHaber (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1.tr" tvg-logo="https://i.imgur.com/8CtrYVb.png" group-title="Undefined",TV 1 (720p)
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
@@ -418,7 +418,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee2
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVEm.tr" tvg-logo="https://i.imgur.com/kKdXoXx.png" group-title="Undefined",TV Em (486p)
 https://cdn-tvem.yayin.com.tr/TVEM/TVEM/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNet.tr" tvg-logo="" group-title="Undefined",TVnet (720p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TVnet (720p)
 https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8
 #EXTINF:-1 tvg-id="UcanKusTV.tr" tvg-logo="https://i.imgur.com/4j8WrIu.png" group-title="Undefined",UçanKuş TV (720p)
 https://ucankus-live.cdnnew.com/ucankus/ucankus.m3u8

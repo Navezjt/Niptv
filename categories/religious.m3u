@@ -522,11 +522,11 @@ https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ManaEgliseOnline.pt" tvg-logo="https://i.imgur.com/xQYly8O.png" group-title="Religious",Maná Église Online (1080p) [Not 24/7]
 https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ManaIglesiaOnline.pt" tvg-logo="https://i.imgur.com/0IUvfcJ.png" group-title="Religious",Maná Iglesia Online (1080p) [Not 24/7]
-https://w2.manasat.com:443/iglesia-online/smil:iglesia-online.smil/playlist.m3u8
+https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ManaIgrejaOnline.pt" tvg-logo="https://i.imgur.com/0IUvfcJ.png" group-title="Religious",Maná Igreja Online (1080p) [Not 24/7]
 https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ManaTserkovOnlayn.pt" tvg-logo="https://i.imgur.com/PruXLqS.png" group-title="Religious",Maná Tserkov' Onlayn (1080p) [Not 24/7]
-https://w2.manasat.com:443/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
+https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MariaVision.mx" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Religious",María Visión Mexico (360p) [Not 24/7]
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVArabic.iq" tvg-logo="https://i.imgur.com/LsYYkUI.png" group-title="Religious",Marjaeyat TV Arabic (1080p)
@@ -920,6 +920,8 @@ http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 https://edge2.uk.kab.tv/live/tvrus-rus-medium/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru" tvg-logo="https://i.imgur.com/Puk1Bhx.png" group-title="Music;Religious",МузСоюз
 http://moobl.ru/hls/Muzsoyuz.m3u8
+#EXTINF:-1 tvg-id="HopeChannelRussia.ru" tvg-logo="https://i.imgur.com/GOSdjiq.png" group-title="Religious",Надежда (720p)
+https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelUkraine.ua" tvg-logo="https://i.imgur.com/o24iAX2.png" group-title="Religious",Надия/Новый канал (576p) [Not 24/7]
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 tvg-id="NebesaTV7.ru" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" group-title="Religious",Небеса ТВ7 (720p)

@@ -40,7 +40,7 @@ https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HBOCOMEDYHD_ott/__op/dash-
 https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HBO3HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",HBO HD
 https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HBOHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",History Channel (1080p)
+#EXTINF:-1 tvg-id="HistoryHD.si" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History Channel (1080p)
 https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
 #EXTINF:-1 tvg-id="KanalA.si" tvg-logo="https://i.imgur.com/JHNpcqF.png" group-title="Undefined",Kanal A
 https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
@@ -50,7 +50,7 @@ https://ythls.armelin.one/channel/UCOGseusAY1nMkEhpmmz6Mmg.m3u8
 https://ythls.armelin.one/channel/UCjYCgkpX1eQCTne99oT63yA.m3u8
 #EXTINF:-1 tvg-id="OneAdria.de" tvg-logo="https://i.imgur.com/NYkMamU.png" group-title="Music",One Adria (1080p)
 https://cdne.folxplay.tv/folx-trz/streams/ch-6/master.m3u8
-#EXTINF:-1 tvg-id="RadioAktualTV.si" tvg-logo="" group-title="Undefined",Radio Aktual TV (1080p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Radio Aktual TV (1080p)
 https://vr1.radioaktual.si/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TVSehara.si" tvg-logo="https://i.imgur.com/189FW4H.png" group-title="Music",Sehara TV (720p)
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
