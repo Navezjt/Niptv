@@ -47,12 +47,12 @@ jobs:
         run: |
           git add streams
           git status
-          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.playlist-update.outputs.OUTPUT }}" --no-verify
+          git commit --allow-empty -m "[Bot] Update /streams" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run }}) workflow." -m "${{ steps.playlist-update.outputs.OUTPUT }}" --no-verify
       - name: commit changes to readme.md
         run: |
           git add README.md
           git status
-          git commit --allow-empty -m "[Bot] Update README.md" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run_id }}) workflow." --no-verify
+          git commit --allow-empty -m "[Bot] Update README.md" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/Navezjt/iptv/actions/runs/${{ github.run }}) workflow." --no-verify
       - name: push all changes to the repository
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         run: git push
@@ -63,7 +63,6 @@ jobs:
           repository-name: Navezjt/iptv
           branch: gh-pages
           folder: .gh-pages
-          token: ${{ steps.create-app-token.outputs.token }}
           git-config-name: iptv-bot[bot]
           git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
           commit-message: '[Bot] Deploy to GitHub Pages'
