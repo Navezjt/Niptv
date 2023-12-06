@@ -8455,6 +8455,8 @@ https://s4.telset.ee/tvn/index.m3u8?filter.tracks=v1a1&token=tvn_token
 https://panel.miplay.cl:8081/tvn/index.m3u8
 #EXTINF:-1 tvg-id="TVNBrasil.br" tvg-logo="https://i.imgur.com/XZS13xD.png" group-title="Undefined",TVN Brasil (720p) [Not 24/7]
 http://painelvj.com.br:1935/tvnbrasil/tvnbrasil.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNGlobal.co" tvg-logo="https://i.imgur.com/1TcZUzH.png" group-title="Undefined",TVN Global (720p)
+https://tvlatina.live:1936/8006/8006/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNET.lv" tvg-logo="https://i.imgur.com/jzv1ssE.png" group-title="Undefined",TVNET (360p)
 https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TVnet (720p)
