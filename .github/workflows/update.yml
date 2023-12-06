@@ -47,7 +47,7 @@ jobs:
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         run: git push
       - name: deploy public playlists to github pages
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
           repository-name: Navezjt/iptv
@@ -58,7 +58,7 @@ jobs:
           commit-message: '[Bot] Deploy to GitHub Pages'
           clean: true
       - name: move .api/streams.json to Navezjt/api
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
           repository-name: Navezjt/api
